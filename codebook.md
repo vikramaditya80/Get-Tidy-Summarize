@@ -1,6 +1,6 @@
-##Codebook
+## Codebook
 
-#Variables <- Data files
+# Variables <- Data files
 - dfActLabels <- activity_labels.txt
 	contains the list of activities along with their index
 - dfFeatures <- features.txt
@@ -18,7 +18,7 @@
 - dfActTrain <- y_train.txt
 	contains the activity index column for training data
 
-#Calculated variables
+# Calculated variables
 - dfTrainMrg
 	calculated by merging the training data frame and the activity labels data frame
 - dfTestMrg
